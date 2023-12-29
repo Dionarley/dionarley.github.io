@@ -1,1 +1,1 @@
-alert('Hello, [your name]!');
+alert('Hey, it works !');
