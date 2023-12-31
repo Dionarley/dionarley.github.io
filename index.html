@@ -1,40 +1,20 @@
-<!DOCTYPE html>
-<html lang=pt-BR">
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-      body {
-        background-image: url(./images/authorimage.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center; 
-        background-color: rgb(46, 38, 53); opacity: 0.4; 
-      }
-
-      
-  h1 {
-    color: white;
-    text-align: center;
-    margin: auto;
-    }
-  p {
-    color:rgb(221, 35, 35);
-    text-align: center;
-    margin: auto;
-  }
-
-    </style>
-    <title>Dionarley R V</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--future feature *<link href="css/style.css" rel="stylesheet">* -->
-  </head>
-
-  <body>
-    <div>
-      <h1>Página em construção.</h1>
-      <p>Conteúdo em desenvolvimento.</p>
-    </div>
-  </body>
-</html>
+---
+layout: default
+---
+<main class="content fade-in-down delay-0_75s">
+    <div class="inner">
+        {% include loop.html %}
+        {% if paginator.total_pages > 1 %}
+        <nav class="pagination">
+            <h2 class="screen-reader-text">Posts navigation</h2>
+            {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="newer-posts"><i class="fa fa-angle-left" aria-hidden="true"></i>Posts novos</a>
+            {% endif %}
+            <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+            {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="older-posts">Posts antigos <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            {% endif %}
+        </nav><!-- .pagination -->
+        {% endif %}
+    </div><!-- .inner -->
+</main><!-- .content -->

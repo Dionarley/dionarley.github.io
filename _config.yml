@@ -1,0 +1,74 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: D-BloX
+
+# Below the site title
+tagline: Entusiasta digital e tec.
+
+# Site logo
+logo:
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: |
+  D-BloX é minha redoma  baseada do tema BlogBox - jekyll.
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: https://dionarley.github.com
+
+# The subpath of your site, if you want to host your path on a subpath like on GitHub Pages. e.g. /blog
+baseurl:
+
+sass:
+  sass_dir: _sass
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Inicio
+  url: /
+- text: Sobre
+  url: /About/
+  #- text: Style Guide
+  #  url: /style-guide/
+- text: Arquivos
+  url: /tags/
+
+# Author information - author info at the bottom of the post
+author_name: "Dionarley"
+author_bio: "'Hello, World!' Eu sou Dionarley, entusiasta tech, fascinado por coisas novas. Gosto de fotografias e ambientes naturais, Costumava pedalar em trilas locais, mas desde a pandemia de 2020 não tenho feito isso. Desde 2021, no teclado de computador, sim (...) o mundo do codigo  manteve minha atenção, até agora..."
+author_url: "https://github.com/Dionarley/dionarley.github.io"
+author_location: "Saiba mais em:"
+author_image: authorimage.jpg
+
+# Footer ad banner
+banner_image: banner.jpg
+banner_url: https://justgoodthemes.com/
+
+# Footer newsletter widget - add your form action url for MailChimp signup form here
+#mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+#twitter_username: "username"
+facebook_username: "Dionarley"
+github_username: "Dionarley"
+#codepen_username: "username"
+#dribbble_username: "username"
+#medium_username: "@username"
+instagram_username: "Dionarley6"
+#pinterest_username: "username"
+#linkedin_username: "username"
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  auto_ids: false
