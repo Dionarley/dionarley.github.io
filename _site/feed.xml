@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>D-BloX</title>
+        <description>D-BloX é minha redoma  baseada do tema BlogBox - jekyll.
+</description>
+        <link>http://localhost:4000/</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sat, 30 Dec 2023 22:20:38 -0300</pubDate>
+        <lastBuildDate>Sat, 30 Dec 2023 22:20:38 -0300</lastBuildDate>
+        <generator>Jekyll v4.3.3</generator>
+        
+            <item>
+                <title>BlogBox</title>
+                <description>&lt;h1&gt;BlogBox&lt;/h1&gt;
+&lt;p&gt;BlogBox is a minimal, bold, responsive, and easy-to-use Jekyll theme. It’s a perfect fit for artists, photographers, or creative bloggers looking for a bold design theme.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blogbox.netlify.app/&quot;&gt;Live Demo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1&gt;Premium Jekyll Themes&lt;/h1&gt;
+
+&lt;p&gt;You can find our premium Jekyll themes here -&amp;gt; &lt;a href=&quot;https://jekyllthemes.io/developers/just-good-themes&quot;&gt;jekyllthemes.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Preview&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://blogbox.netlify.app/&quot;&gt;&lt;img src=&quot;/images/blogbox_preview.jpeg&quot; alt=&quot;Blogbox preview&quot; title=&quot;Blogbox preview&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;Theme features&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Responsive layout – your blog will be accessible on various devices (iPhone, iPad, Android, etc.)&lt;/li&gt;
+  &lt;li&gt;Clean, well commented code, easy to customize&lt;/li&gt;
+  &lt;li&gt;Optional fixed navigation&lt;/li&gt;
+  &lt;li&gt;Author information&lt;/li&gt;
+  &lt;li&gt;Tag page support&lt;/li&gt;
+  &lt;li&gt;Code syntax highlighter&lt;/li&gt;
+  &lt;li&gt;Newsletter, latest posts and tag cloud widgets&lt;/li&gt;
+  &lt;li&gt;Sharing post integration&lt;/li&gt;
+  &lt;li&gt;Social media icons&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Local Installation&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;How to install and use the theme&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;em&gt;Note: this theme cannot be installed as a gem in your Gemfile and config, therefore the only way to use this theme is to clone the entire repo and put your content in it among the styling.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Install Jekyll as per &lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll docs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Clone the repo or your fork.&lt;/p&gt;
+
+&lt;p&gt;Navigate to the repo.&lt;/p&gt;
+
+&lt;p&gt;Install the dependencies:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle config &lt;span class=&quot;nb&quot;&gt;set&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--local&lt;/span&gt; path vendor/bundle
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Start a dev server, with verbose error traces:&lt;/p&gt;
+
+&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle &lt;span class=&quot;nb&quot;&gt;exec &lt;/span&gt;jekyll serve &lt;span class=&quot;nt&quot;&gt;--trace&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2&gt;Development&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;How to set up and run the theme as a standalone site locally&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Follow the steps in the section above.&lt;/p&gt;
+
+&lt;h2&gt;Deployment&lt;/h2&gt;
+
+&lt;p&gt;Please see the &lt;a href=&quot;https://jekyllrb.com/docs/deployment-methods/&quot;&gt;Deployment Methods&lt;/a&gt; page on the Jekyll website.&lt;/p&gt;
+
+&lt;h3&gt;Manual Deployment&lt;/h3&gt;
+
+&lt;p&gt;Jekyll outputs your static site to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_site&lt;/code&gt;. directory by default. You can transfer the contents of this directory to almost any hosting provider to get your site live. This can be tedious, so some automated deploy approaches are listed below.&lt;/p&gt;
+
+&lt;h3&gt;Netlify&lt;/h3&gt;
+
+&lt;p&gt;This theme is prepared to be hosted on &lt;a href=&quot;https://www.netlify.com/&quot;&gt;Netlify&lt;/a&gt;. All you need to do is create a new public or private repository on GitHub or GitLab. Upload the theme to the repository and link your repo to Netlify. Please check this &lt;a href=&quot;https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/#step-2-link-to-your-github&quot;&gt;blog post&lt;/a&gt; for step-by-step guidelines.&lt;/p&gt;
+
+&lt;h3&gt;Amazon S3&lt;/h3&gt;
+
+&lt;p&gt;If you want to host your site on Amazon S3, you can do so by using the &lt;a href=&quot;https://github.com/laurilehmijoki/s3_website&quot;&gt;s3_website application&lt;/a&gt;. It will push your site to Amazon S3, where it can be served like any web server, dynamically scaling to almost unlimited traffic. Well, S3 itself is not built for speed so you probably want to put some CDN like CloudFront on top of your S3 objects.&lt;/p&gt;
+
+&lt;h3&gt;GitHub Pages&lt;/h3&gt;
+
+&lt;p&gt;See the &lt;a href=&quot;https://jekyllrb.com/docs/continuous-integration/github-actions/&quot;&gt;GitHub Actions&lt;/a&gt; deploy guide on Jekyll docs to build with GitHub Actions and host with GitHub Pages.&lt;/p&gt;
+
+&lt;h2&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Licensed under &lt;a href=&quot;/LICENSE&quot;&gt;MIT&lt;/a&gt;.&lt;/p&gt;
+</description>
+                <pubDate>Sat, 30 Dec 2023 00:00:00 -0300</pubDate>
+                <link>http://localhost:4000/2023/12/30/README/</link>
+                <guid isPermaLink="true">http://localhost:4000/2023/12/30/README/</guid>
+                
+                <category>Blog</category>
+                
+                
+            </item>
+        
+    </channel>
+</rss>
